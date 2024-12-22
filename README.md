@@ -1,5 +1,5 @@
 # olive-grove-obsidian
 Olive Grove is a theme for Obsidian that feautures green and earthy tones. There are dark and light modes.
 
-![](dark mode.png)
-![](light mode.png)
+![]("dark mode.png")
+![]("light mode.png")
