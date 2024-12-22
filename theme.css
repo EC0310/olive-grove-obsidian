@@ -1,0 +1,243 @@
+.theme-light {
+  /* Background Colors */
+  --background-primary: #F1F2E3;
+  --background-secondary: #dee0cb;
+  /* Header Colors */
+  --h1-color: #3B4A3B;
+  --h2-color: #4E5C4E;
+  --h3-color: #637263;
+  --h4-color: #7B8A7B;
+  --h5-color: #99A799;
+  --h6-color: #B6C3B6;
+
+  /* Divider and Titlebar Colors */
+  --divider-color: #C8CBB2; 
+  --titlebar-background: #F6F6EC; 
+  --titlebar-background-focused: #F1F2E3; 
+
+  /* Link Colors */
+  --link-color: #4F6D34; 
+  --link-color-hover: #3E5A2A;
+
+  /* External Link Colors */
+  --link-external-color: #8C3F3F;
+  --link-external-color-hover: #753534;
+
+  /* Folder Colors */
+  .nav-folder-title[data-path^="00"] {
+    color: #8C3F3F; /* Bold terracotta */
+  }
+  .nav-folder-title[data-path^="01"] {
+    color: #753534; /* Deep terracotta */
+  }
+  .nav-folder-title[data-path^="02"] {
+    color: #4F6D34; /* Bright olive green */
+  }
+  .nav-folder-title[data-path^="03"] {
+    color: #3E5A2A; /* Deep olive green */
+  }
+  .nav-folder-title[data-path^="04"] {
+    color: #9E774F; /* Warm golden tan */
+  }
+  .nav-folder-title[data-path^="05"] {
+    color: #C19A6B; /* Sand beige */
+  }
+  .nav-folder-title[data-path^="06"] {
+    color: #4A6372; /* Muted teal */
+  }
+  .nav-folder-title[data-path^="07"] {
+    color: #6B8E23; /* Vibrant chartreuse */
+  }
+  .nav-folder-title[data-path^="08"] {
+    color: #8B5A5A; /* Muted rose */
+  }
+  .nav-folder-title[data-path^="09"] {
+    color: #B2655A; /* Warm brick red */
+  }
+  .nav-folder-title[data-path^="99"] {
+    color: #8E407A; /* Vibrant plum-pink */
+  }
+
+  --list-indent: 1.5em;
+  --list-indent-editing: 1.5em;
+  --list-indent-source: 1.5em;
+  --list-spacing: 0.5em;
+  --list-marker-color: #4F6D34; 
+  --list-marker-color-hover: #3E5A2A;
+  --list-marker-color-collapsed: #8C3F3F; 
+  --list-bullet-border: 1px solid #C8CBB2;
+  --list-bullet-end-padding: 0.5em;
+  --list-bullet-radius: 50%;
+  --list-bullet-size: 0.6em;
+
+  /* Metadata General */
+  --metadata-background: #F6F6EC;
+  --metadata-display-editing: block; 
+  --metadata-display-reading: block; 
+  --metadata-max-width: 80%; 
+  --metadata-padding: 0.5em; 
+  --metadata-border-color: #C8CBB2; 
+  --metadata-border-radius: 6px; 
+  --metadata-border-width: 1px;
+  --metadata-gap: 0.6em;
+
+  /* Metadata Individual Properties */
+  --metadata-divider-color: #DEE0CB; 
+  --metadata-divider-color-hover: #B6C3B6;
+  --metadata-divider-color-focus: #A2B38B;
+
+  --metadata-property-padding: 0.4em;
+  --metadata-property-background: var(--background-secondary);
+  --metadata-property-background-hover: #EBECD9;
+  --metadata-property-background-active: #E3E4D1;
+  --metadata-property-radius: 8px;
+  --metadata-property-radius-hover: 10px; 
+  --metadata-property-radius-focus: 12px; 
+
+  --metadata-label-font-size: 0.9em;
+  --metadata-label-font-weight: 500;
+  --metadata-label-text-color: #4E5C4E;
+  --metadata-label-text-color-hover: #3B4A3B;
+  --metadata-label-width: auto;
+
+  --metadata-input-height: 2em;
+  --metadata-input-text-color: #4F6D34;
+  --metadata-input-font-size: 1em;
+  --metadata-input-background: var(--background-secondary);
+
+  /* Callout Styling */
+  --callout-border-width: 2px;
+  --callout-border-opacity: 0.8;
+  --callout-padding: 1rem;
+  --callout-radius: 8px; 
+  --callout-title-color: var(--h1-color); 
+  --callout-title-padding: 0.5rem;
+  --callout-title-size: 1rem;
+  --callout-title-weight: 600; 
+  --callout-content-padding: 0.75rem;
+
+  
+}
+
+.theme-dark {
+  /* Background Colors */
+  --background-primary: #1E1F1A;
+  --background-secondary: #272920;
+
+  /* Header Colors */
+  --h1-color: #D1D3BE; 
+  --h2-color: #BFC1AD;
+  --h3-color: #A2B38B;
+  --h4-color: #889A6A; 
+  --h5-color: #6D7A58; 
+  --h6-color: #505742;
+
+  /* Divider and Titlebar Colors */
+  --divider-color: #3A3C33; 
+  --titlebar-background: #23241E; 
+  --titlebar-background-focused: #1E1F1A; 
+
+  /* Link Colors */
+  --link-color: #94A17D;
+  --link-color-hover: #7F8C69; 
+
+  /* External Link Colors */
+  --link-external-color: #B2655A; 
+  --link-external-color-hover: #9D554E;
+
+  /* Folder Colors */
+  .nav-folder-title[data-path^="00"] {
+    color: #B2655A; /* Bold terracotta */
+  }
+  .nav-folder-title[data-path^="01"] {
+    color: #9D554E; /* Deep terracotta */
+  }
+  .nav-folder-title[data-path^="02"] {
+    color: #94A17D; /* Soft olive green */
+  }
+  .nav-folder-title[data-path^="03"] {
+    color: #7F8C69; /* Deep olive green */
+  }
+  .nav-folder-title[data-path^="04"] {
+    color: #9E774F; /* Warm golden tan */
+  }
+  .nav-folder-title[data-path^="05"] {
+    color: #C19A6B; /* Sand beige */
+  }
+  .nav-folder-title[data-path^="06"] {
+    color: #6D7A58; /* Earthy moss green */
+  }
+  .nav-folder-title[data-path^="07"] {
+    color: #8C3F3F; /* Rich brick red */
+  }
+  .nav-folder-title[data-path^="08"] {
+    color: #8B5A5A; /* Muted rose */
+  }
+  .nav-folder-title[data-path^="09"] {
+    color: #BFC1AD; /* Light pale sage */
+  }
+  .nav-folder-title[data-path^="99"] {
+    color: #9A4A80; /* Deep plum */
+  }
+
+   /* List Properties */
+  --list-indent: 1.5em;
+  --list-indent-editing: 1.5em;
+  --list-indent-source: 1.5em;
+  --list-spacing: 0.5em;
+  --list-marker-color: #94A17D;
+  --list-marker-color-hover: #7F8C69;
+  --list-marker-color-collapsed: #B2655A;
+  --list-bullet-border: 1px solid #3A3C33; 
+  --list-bullet-end-padding: 0.5em;
+  --list-bullet-radius: 50%;
+  --list-bullet-size: 0.6em;
+
+  /* Metadata General */
+  --metadata-background: #23241E; 
+  --metadata-display-editing: block;
+  --metadata-display-reading: block;
+  --metadata-max-width: 80%;
+  --metadata-padding: 0.5em; 
+  --metadata-border-color: #3A3C33;
+  --metadata-border-radius: 6px;
+  --metadata-border-width: 1px;
+  --metadata-gap: 0.6em;
+
+  /* Metadata Individual Properties */
+  --metadata-divider-color: #3A3C33;
+  --metadata-divider-color-hover: #6D7A58;
+  --metadata-divider-color-focus: #A2B38B; 
+  --metadata-divider-width: 1px;
+
+  --metadata-property-padding: 0.4em;
+  --metadata-property-background: #272920; 
+  --metadata-property-background-hover: #3A3C33; 
+  --metadata-property-background-active: #505742; 
+  --metadata-property-radius: 8px; 
+  --metadata-property-radius-hover: 10px;
+  --metadata-property-radius-focus: 12px;
+
+  --metadata-label-font-size: 0.9em;
+  --metadata-label-font-weight: 500; 
+  --metadata-label-text-color: #BFC1AD; 
+  --metadata-label-text-color-hover: #D1D3BE; 
+  --metadata-label-width: auto;
+
+  --metadata-input-height: 2em;
+  --metadata-input-text-color: #94A17D;
+  --metadata-input-font-size: 1em;
+  --metadata-input-background: var(--background-secondary);
+  
+  /* Callout Styling */
+  --callout-border-width: 2px;
+  --callout-border-opacity: 0.8;
+  --callout-padding: 1rem;
+  --callout-radius: 8px;
+  --callout-title-color: var(--h1-color); 
+  --callout-title-padding: 0.5rem;
+  --callout-title-size: 1rem;
+  --callout-title-weight: 600;
+  --callout-content-padding: 0.75rem;
+
+}
